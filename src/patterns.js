@@ -1,4 +1,4 @@
-// Coding error patterns (5x5)
+Make null pointer pattern easier to complete// Coding error patterns (5x5)
 const ERROR_PATTERNS = [
   {
   name: "Null Pointer",
