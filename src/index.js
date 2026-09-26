@@ -38,7 +38,7 @@ let currentPiece = null;
 let currentX = 0;
 let currentY = 0;
 let score = 0;
-let highScore = 0;
+let let highScore = 0;
 let isPaused = false;
 let dropCounter = 0;
 let dropInterval = 1000;
@@ -60,7 +60,6 @@ function init() {
   // Load high score from localStorage
 highScore = parseInt(localStorage.getItem("stackOverflownHighScore")) || 0;
 document.getElementById("high-score").textContent = highScore;
-
   // Spawn first piece
   spawnPiece();
 
